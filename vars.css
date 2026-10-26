@@ -1,0 +1,16 @@
+@layer vars {
+  :root {
+    color-scheme: light dark;
+    --font: ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, Menlo, Consolas, monospace;
+    --container: 72rem;
+    --radius: .5rem;
+  }
+  :root, body {
+    --bg: light-dark(#fff, #111);
+    --fg: light-dark(#111, #eee);
+    --line: light-dark(#ddd, #333);
+  }
+  .white { color-scheme: light }
+  .dark { color-scheme: dark }
+}

@@ -1,0 +1,12 @@
+@layer reset {
+  *, ::before, ::after { box-sizing: border-box }
+  * { margin: 0 }
+  body { min-height: 100dvh; -webkit-font-smoothing: antialiased }
+  img, svg, video, canvas { display: block; max-width: 100%; height: auto }
+  input, button, textarea, select { font: inherit; color: inherit }
+  p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word }
+  [hidden] { display: none !important }
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after { transition-duration: .01ms !important }
+  }
+}
